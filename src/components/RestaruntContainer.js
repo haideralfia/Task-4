@@ -10,18 +10,7 @@ const RestaruntContainer = () => {
 	const [filteredRestarunt, setFilteredRestarunt] = useState(restaruntList);
 	const [searchText, setSearchText] = useState('');
 
-	useEffect(() => {
-		fetchData();
-	}, []);
-
-	const fetchData = async () => {
-		const data = await fetch(
-			'https://thingproxy.freeboard.io/fetch/https://texttospeech.googleapis.com/v1beta1/text:synthesize?key=AIzaSyBQZqq7JAR1kzVqJtJc7W-CjcENcDtp97E'
-		);
-		const response = await data.json();
-
-		console.log(response);
-	};
+	
 
 	return resList.length === 0 ? (
 		<Shimmer />
