@@ -1,7 +1,7 @@
 import ResCard from './ResCard';
 import './RestaruntContainer.css';
 import { restaruntList } from '../utiles/mockData';
-import { useState, useEffect } from 'react';
+import useState from 'react';
 import Shimmer from './Shimmer';
 
 //rest-container
