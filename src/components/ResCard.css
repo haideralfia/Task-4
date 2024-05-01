@@ -1,0 +1,39 @@
+/* Res. Card */
+.resCardContainer {
+	display: flex;
+	flex-direction: column;
+	height: 400px;
+	width: 270px;
+	padding: 10px 50px;
+}
+.resCardContainer:hover {
+	border: 1px solid black;
+	cursor: pointer;
+}
+.resCardContainer > img {
+	height: 270px;
+	width: 270px;
+	border-radius: 20px;
+}
+
+.resCardSubContainer {
+	display: flex;
+	flex-direction: column;
+	padding: 20px 0px;
+}
+.resCardDiv {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.resCardTitle,
+.resCardFood {
+	font-size: 26px;
+}
+
+.resCardRating,
+.resCardTime {
+	font-size: 20px;
+}

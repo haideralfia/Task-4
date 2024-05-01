@@ -1,0 +1,24 @@
+/* Navbar */
+.NavbarContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 20px 150px;
+	background-color: #ffffffde;
+}
+
+.navbarSubContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbarSubContainer > p {
+	font-size: 25px;
+}
+
+.navbarSubContainer > img {
+	margin-top: 30px;
+	height: 100px;
+}

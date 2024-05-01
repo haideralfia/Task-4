@@ -1,0 +1,57 @@
+/* Restaurant Container */
+.resContainer {
+	margin-top: 37px;
+	display: flex;
+	flex-direction: column;
+}
+
+.resContainer > h1 {
+	padding: 10px 150px;
+	font-size: 45px;
+}
+
+.search {
+	margin: 35px;
+	padding-left: 170px;
+	padding-right: 210px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.searchInput {
+	height: 35px;
+	width: 380px;
+	border-radius: 8px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.searchButton {
+	height: 40px;
+	width: 80px;
+	border-radius: 8px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	color: black;
+	background-color: white;
+}
+
+.filterButton {
+	border: 0.5px solid rgba(128, 128, 128, 0.645);
+	background-color: white;
+	border-radius: 8px;
+}
+
+.filterButton:hover {
+	color: orange;
+	border: 0.5px solid orange;
+}
+
+.resSubContainer {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	row-gap: 20px;
+	column-gap: 20px;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 20px;
+}

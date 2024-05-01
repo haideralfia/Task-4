@@ -1,0 +1,20 @@
+/* Res. Card */
+.shimmerCardContainer {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 25px;
+	padding-left: 35px;
+}
+
+.shimmerContainer {
+	display: flex;
+	flex-direction: column;
+	height: 400px;
+	width: 240px;
+
+	padding: 10px 50px;
+	background-color: rgb(203, 203, 203);
+}
+.shimmerContainer:hover {
+	cursor: pointer;
+}
